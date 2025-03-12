@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1898,14 +1898,14 @@ pub mod cs2_dumper {
                 pub const m_Frame2: usize = 0x30; // CTransform
                 pub const m_bEnableCollision: usize = 0x50; // bool
                 pub const m_bEnableLinearLimit: usize = 0x51; // bool
-                pub const m_LinearLimit: usize = 0x54; // VPhysXRange_t
+                pub const m_LinearLimit: usize = 0x54; // 
                 pub const m_bEnableLinearMotor: usize = 0x5C; // bool
                 pub const m_vLinearTargetVelocity: usize = 0x60; // Vector
                 pub const m_flMaxForce: usize = 0x6C; // float32
                 pub const m_bEnableSwingLimit: usize = 0x70; // bool
-                pub const m_SwingLimit: usize = 0x74; // VPhysXRange_t
+                pub const m_SwingLimit: usize = 0x74; // 
                 pub const m_bEnableTwistLimit: usize = 0x7C; // bool
-                pub const m_TwistLimit: usize = 0x80; // VPhysXRange_t
+                pub const m_TwistLimit: usize = 0x80; // 
                 pub const m_bEnableAngularMotor: usize = 0x88; // bool
                 pub const m_vAngularTargetVelocity: usize = 0x8C; // Vector
                 pub const m_flMaxTorque: usize = 0x98; // float32
@@ -2829,7 +2829,7 @@ pub mod cs2_dumper {
                 pub const m_bIsSynchronized: usize = 0x8; // bool
                 pub const m_bIgnoreEvents: usize = 0x9; // bool
                 pub const m_bIsStateMachineLayer: usize = 0xA; // bool
-                pub const m_blendMode: usize = 0xB; // 
+                pub const m_blendMode: usize = 0xB; // NmPoseBlendMode_t
             }
             // Parent: None
             // Field count: 4
@@ -3166,7 +3166,7 @@ pub mod cs2_dumper {
                 pub const m_nTotalElementCount: usize = 0x0; // int32
                 pub const m_szChannelClass: usize = 0x8; // 
                 pub const m_szVariableName: usize = 0x20; // 
-                pub const m_nType: usize = 0x38; // 
+                pub const m_nType: usize = 0x38; // CUtlVector<fieldtype_t>
                 pub const m_nFlags: usize = 0x50; // CUtlVector<int32>
                 pub const m_szGrouping: usize = 0x68; // CUtlVector<CUtlString>
                 pub const m_nCompressorIndex: usize = 0x80; // CUtlVector<int32>
@@ -3427,7 +3427,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CModelConfigElement_RandomColor {
-                pub const m_Gradient: usize = 0x48; // CColorGradient
+                pub const m_Gradient: usize = 0x48; // 
             }
             // Parent: None
             // Field count: 3
@@ -3635,7 +3635,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod PermModelData_t {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_modelInfo: usize = 0x8; // PermModelInfo_t
+                pub const m_modelInfo: usize = 0x8; // 
                 pub const m_ExtParts: usize = 0x60; // CUtlVector<PermModelExtPart_t>
                 pub const m_refMeshes: usize = 0x78; // CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>>
                 pub const m_refMeshGroupMasks: usize = 0x90; // CUtlVector<uint64>
@@ -4332,7 +4332,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CNmGraphVariation {
-                pub const m_graphDefinition: usize = 0x0; // 
+                pub const m_graphDefinition: usize = 0x0; // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
                 pub const m_dataSet: usize = 0x8; // CNmGraphDataSet
             }
             // Parent: None
@@ -5373,7 +5373,7 @@ pub mod cs2_dumper {
                 pub const m_nTranslateMotion: usize = 0x1; // int8
                 pub const m_nRotateMotion: usize = 0x2; // int8
                 pub const m_nFlags: usize = 0x3; // int8
-                pub const m_anchor: usize = 0x4; // Vector[2]
+                pub const m_anchor: usize = 0x4; // 
                 pub const m_axes: usize = 0x1C; // QuaternionStorage[2]
                 pub const m_maxForce: usize = 0x3C; // float32
                 pub const m_maxTorque: usize = 0x40; // float32
@@ -5674,7 +5674,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmIDComparisonNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
-                pub const m_comparison: usize = 0x12; // 
+                pub const m_comparison: usize = 0x12; // CNmIDComparisonNode::Comparison_t
                 pub const m_comparisionIDs: usize = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
             }
             // Parent: CMotionGraph
@@ -5730,7 +5730,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMotionNode {
                 pub const m_name: usize = 0x18; // CUtlString
-                pub const m_id: usize = 0x20; // 
+                pub const m_id: usize = 0x20; // AnimNodeID
             }
             // Parent: CNmPoseNode__CDefinition
             // Field count: 2

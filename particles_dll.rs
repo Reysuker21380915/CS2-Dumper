@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // ParticleVecType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -2414,7 +2414,7 @@ pub mod cs2_dumper {
                 pub const m_flInterpInput1: usize = 0x62C; // float32
                 pub const m_vInterpOutput0: usize = 0x630; // Vector
                 pub const m_vInterpOutput1: usize = 0x63C; // Vector
-                pub const m_Gradient: usize = 0x648; // CColorGradient
+                pub const m_Gradient: usize = 0x648; // 
                 pub const m_vRandomMin: usize = 0x660; // Vector
                 pub const m_vRandomMax: usize = 0x66C; // Vector
             }
@@ -5571,7 +5571,7 @@ pub mod cs2_dumper {
                 pub const m_bEnabled: usize = 0x0; // bool
                 pub const m_bReplaceTextureWithGradient: usize = 0x1; // bool
                 pub const m_hTexture: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                pub const m_Gradient: usize = 0x10; // CColorGradient
+                pub const m_Gradient: usize = 0x10; // 
                 pub const m_nTextureType: usize = 0x28; // SpriteCardTextureType_t
                 pub const m_nTextureChannels: usize = 0x2C; // SpriteCardTextureChannel_t
                 pub const m_nTextureBlendMode: usize = 0x30; // ParticleTextureLayerBlendType_t
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // 
+                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve

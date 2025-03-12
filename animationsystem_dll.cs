@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1801,14 +1801,14 @@ namespace CS2Dumper.Schemas {
             public const nint m_Frame2 = 0x30; // CTransform
             public const nint m_bEnableCollision = 0x50; // bool
             public const nint m_bEnableLinearLimit = 0x51; // bool
-            public const nint m_LinearLimit = 0x54; // VPhysXRange_t
+            public const nint m_LinearLimit = 0x54; // 
             public const nint m_bEnableLinearMotor = 0x5C; // bool
             public const nint m_vLinearTargetVelocity = 0x60; // Vector
             public const nint m_flMaxForce = 0x6C; // float32
             public const nint m_bEnableSwingLimit = 0x70; // bool
-            public const nint m_SwingLimit = 0x74; // VPhysXRange_t
+            public const nint m_SwingLimit = 0x74; // 
             public const nint m_bEnableTwistLimit = 0x7C; // bool
-            public const nint m_TwistLimit = 0x80; // VPhysXRange_t
+            public const nint m_TwistLimit = 0x80; // 
             public const nint m_bEnableAngularMotor = 0x88; // bool
             public const nint m_vAngularTargetVelocity = 0x8C; // Vector
             public const nint m_flMaxTorque = 0x98; // float32
@@ -2732,7 +2732,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bIsSynchronized = 0x8; // bool
             public const nint m_bIgnoreEvents = 0x9; // bool
             public const nint m_bIsStateMachineLayer = 0xA; // bool
-            public const nint m_blendMode = 0xB; // 
+            public const nint m_blendMode = 0xB; // NmPoseBlendMode_t
         }
         // Parent: None
         // Field count: 4
@@ -3069,7 +3069,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTotalElementCount = 0x0; // int32
             public const nint m_szChannelClass = 0x8; // 
             public const nint m_szVariableName = 0x20; // 
-            public const nint m_nType = 0x38; // 
+            public const nint m_nType = 0x38; // CUtlVector<fieldtype_t>
             public const nint m_nFlags = 0x50; // CUtlVector<int32>
             public const nint m_szGrouping = 0x68; // CUtlVector<CUtlString>
             public const nint m_nCompressorIndex = 0x80; // CUtlVector<int32>
@@ -3330,7 +3330,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CModelConfigElement_RandomColor {
-            public const nint m_Gradient = 0x48; // CColorGradient
+            public const nint m_Gradient = 0x48; // 
         }
         // Parent: None
         // Field count: 3
@@ -3538,7 +3538,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class PermModelData_t {
             public const nint m_name = 0x0; // CUtlString
-            public const nint m_modelInfo = 0x8; // PermModelInfo_t
+            public const nint m_modelInfo = 0x8; // 
             public const nint m_ExtParts = 0x60; // CUtlVector<PermModelExtPart_t>
             public const nint m_refMeshes = 0x78; // CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>>
             public const nint m_refMeshGroupMasks = 0x90; // CUtlVector<uint64>
@@ -4235,7 +4235,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CNmGraphVariation {
-            public const nint m_graphDefinition = 0x0; // 
+            public const nint m_graphDefinition = 0x0; // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
             public const nint m_dataSet = 0x8; // CNmGraphDataSet
         }
         // Parent: None
@@ -5276,7 +5276,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTranslateMotion = 0x1; // int8
             public const nint m_nRotateMotion = 0x2; // int8
             public const nint m_nFlags = 0x3; // int8
-            public const nint m_anchor = 0x4; // Vector[2]
+            public const nint m_anchor = 0x4; // 
             public const nint m_axes = 0x1C; // QuaternionStorage[2]
             public const nint m_maxForce = 0x3C; // float32
             public const nint m_maxTorque = 0x40; // float32
@@ -5577,7 +5577,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CNmIDComparisonNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
-            public const nint m_comparison = 0x12; // 
+            public const nint m_comparison = 0x12; // CNmIDComparisonNode::Comparison_t
             public const nint m_comparisionIDs = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
         }
         // Parent: CMotionGraph
@@ -5633,7 +5633,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CMotionNode {
             public const nint m_name = 0x18; // CUtlString
-            public const nint m_id = 0x20; // 
+            public const nint m_id = 0x20; // AnimNodeID
         }
         // Parent: CNmPoseNode__CDefinition
         // Field count: 2

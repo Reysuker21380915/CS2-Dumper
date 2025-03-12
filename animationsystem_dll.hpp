@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 #pragma once
 
@@ -1806,14 +1806,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Frame2 = 0x30; // CTransform
                 constexpr std::ptrdiff_t m_bEnableCollision = 0x50; // bool
                 constexpr std::ptrdiff_t m_bEnableLinearLimit = 0x51; // bool
-                constexpr std::ptrdiff_t m_LinearLimit = 0x54; // VPhysXRange_t
+                constexpr std::ptrdiff_t m_LinearLimit = 0x54; // 
                 constexpr std::ptrdiff_t m_bEnableLinearMotor = 0x5C; // bool
                 constexpr std::ptrdiff_t m_vLinearTargetVelocity = 0x60; // Vector
                 constexpr std::ptrdiff_t m_flMaxForce = 0x6C; // float32
                 constexpr std::ptrdiff_t m_bEnableSwingLimit = 0x70; // bool
-                constexpr std::ptrdiff_t m_SwingLimit = 0x74; // VPhysXRange_t
+                constexpr std::ptrdiff_t m_SwingLimit = 0x74; // 
                 constexpr std::ptrdiff_t m_bEnableTwistLimit = 0x7C; // bool
-                constexpr std::ptrdiff_t m_TwistLimit = 0x80; // VPhysXRange_t
+                constexpr std::ptrdiff_t m_TwistLimit = 0x80; // 
                 constexpr std::ptrdiff_t m_bEnableAngularMotor = 0x88; // bool
                 constexpr std::ptrdiff_t m_vAngularTargetVelocity = 0x8C; // Vector
                 constexpr std::ptrdiff_t m_flMaxTorque = 0x98; // float32
@@ -2737,7 +2737,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsSynchronized = 0x8; // bool
                 constexpr std::ptrdiff_t m_bIgnoreEvents = 0x9; // bool
                 constexpr std::ptrdiff_t m_bIsStateMachineLayer = 0xA; // bool
-                constexpr std::ptrdiff_t m_blendMode = 0xB; // 
+                constexpr std::ptrdiff_t m_blendMode = 0xB; // NmPoseBlendMode_t
             }
             // Parent: None
             // Field count: 4
@@ -3074,7 +3074,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTotalElementCount = 0x0; // int32
                 constexpr std::ptrdiff_t m_szChannelClass = 0x8; // 
                 constexpr std::ptrdiff_t m_szVariableName = 0x20; // 
-                constexpr std::ptrdiff_t m_nType = 0x38; // 
+                constexpr std::ptrdiff_t m_nType = 0x38; // CUtlVector<fieldtype_t>
                 constexpr std::ptrdiff_t m_nFlags = 0x50; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_szGrouping = 0x68; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_nCompressorIndex = 0x80; // CUtlVector<int32>
@@ -3335,7 +3335,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CModelConfigElement_RandomColor {
-                constexpr std::ptrdiff_t m_Gradient = 0x48; // CColorGradient
+                constexpr std::ptrdiff_t m_Gradient = 0x48; // 
             }
             // Parent: None
             // Field count: 3
@@ -3543,7 +3543,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace PermModelData_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_modelInfo = 0x8; // PermModelInfo_t
+                constexpr std::ptrdiff_t m_modelInfo = 0x8; // 
                 constexpr std::ptrdiff_t m_ExtParts = 0x60; // CUtlVector<PermModelExtPart_t>
                 constexpr std::ptrdiff_t m_refMeshes = 0x78; // CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>>
                 constexpr std::ptrdiff_t m_refMeshGroupMasks = 0x90; // CUtlVector<uint64>
@@ -4240,7 +4240,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CNmGraphVariation {
-                constexpr std::ptrdiff_t m_graphDefinition = 0x0; // 
+                constexpr std::ptrdiff_t m_graphDefinition = 0x0; // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
                 constexpr std::ptrdiff_t m_dataSet = 0x8; // CNmGraphDataSet
             }
             // Parent: None
@@ -5281,7 +5281,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTranslateMotion = 0x1; // int8
                 constexpr std::ptrdiff_t m_nRotateMotion = 0x2; // int8
                 constexpr std::ptrdiff_t m_nFlags = 0x3; // int8
-                constexpr std::ptrdiff_t m_anchor = 0x4; // Vector[2]
+                constexpr std::ptrdiff_t m_anchor = 0x4; // 
                 constexpr std::ptrdiff_t m_axes = 0x1C; // QuaternionStorage[2]
                 constexpr std::ptrdiff_t m_maxForce = 0x3C; // float32
                 constexpr std::ptrdiff_t m_maxTorque = 0x40; // float32
@@ -5582,7 +5582,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmIDComparisonNode__CDefinition {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
-                constexpr std::ptrdiff_t m_comparison = 0x12; // 
+                constexpr std::ptrdiff_t m_comparison = 0x12; // CNmIDComparisonNode::Comparison_t
                 constexpr std::ptrdiff_t m_comparisionIDs = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
             }
             // Parent: CMotionGraph
@@ -5638,7 +5638,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CMotionNode {
                 constexpr std::ptrdiff_t m_name = 0x18; // CUtlString
-                constexpr std::ptrdiff_t m_id = 0x20; // 
+                constexpr std::ptrdiff_t m_id = 0x20; // AnimNodeID
             }
             // Parent: CNmPoseNode__CDefinition
             // Field count: 2

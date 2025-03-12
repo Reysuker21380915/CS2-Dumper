@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 #pragma once
 
@@ -2320,7 +2320,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             namespace CParticleVecInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
                 constexpr std::ptrdiff_t m_LiteralColor = 0x20; // Color
                 constexpr std::ptrdiff_t m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2340,7 +2340,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flInterpInput1 = 0x62C; // float32
                 constexpr std::ptrdiff_t m_vInterpOutput0 = 0x630; // Vector
                 constexpr std::ptrdiff_t m_vInterpOutput1 = 0x63C; // Vector
-                constexpr std::ptrdiff_t m_Gradient = 0x648; // CColorGradient
+                constexpr std::ptrdiff_t m_Gradient = 0x648; // 
                 constexpr std::ptrdiff_t m_vRandomMin = 0x660; // Vector
                 constexpr std::ptrdiff_t m_vRandomMax = 0x66C; // Vector
             }
@@ -5497,7 +5497,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnabled = 0x0; // bool
                 constexpr std::ptrdiff_t m_bReplaceTextureWithGradient = 0x1; // bool
                 constexpr std::ptrdiff_t m_hTexture = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                constexpr std::ptrdiff_t m_Gradient = 0x10; // CColorGradient
+                constexpr std::ptrdiff_t m_Gradient = 0x10; // 
                 constexpr std::ptrdiff_t m_nTextureType = 0x28; // SpriteCardTextureType_t
                 constexpr std::ptrdiff_t m_nTextureChannels = 0x2C; // SpriteCardTextureChannel_t
                 constexpr std::ptrdiff_t m_nTextureBlendMode = 0x30; // ParticleTextureLayerBlendType_t
@@ -5816,7 +5816,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNotchedRangeMax = 0x104; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputOutside = 0x108; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputInside = 0x10C; // float32
-                constexpr std::ptrdiff_t m_nRoundType = 0x110; // 
+                constexpr std::ptrdiff_t m_nRoundType = 0x110; // ParticleFloatRoundType_t
                 constexpr std::ptrdiff_t m_nBiasType = 0x114; // ParticleFloatBiasType_t
                 constexpr std::ptrdiff_t m_flBiasParameter = 0x118; // float32
                 constexpr std::ptrdiff_t m_Curve = 0x120; // CPiecewiseCurve

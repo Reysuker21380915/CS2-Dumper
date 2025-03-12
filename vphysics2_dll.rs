@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 00:17:29.654050300 UTC
+// 2025-03-12 00:51:53.149375300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -57,7 +57,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnSoftbodyCapsule_t {
-                pub const m_vCenter: usize = 0x0; // Vector[2]
+                pub const m_vCenter: usize = 0x0; // 
                 pub const m_flRadius: usize = 0x18; // float32
                 pub const m_nParticle: usize = 0x1C; // uint16[2]
             }
@@ -337,7 +337,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnCapsule_t {
-                pub const m_vCenter: usize = 0x0; // Vector[2]
+                pub const m_vCenter: usize = 0x0; // 
                 pub const m_flRadius: usize = 0x18; // float32
             }
             // Parent: None
@@ -445,7 +445,7 @@ pub mod cs2_dumper {
                 pub const m_vMin: usize = 0x0; // Vector
                 pub const m_vMax: usize = 0xC; // Vector
                 pub const m_Nodes: usize = 0x18; // 
-                pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
+                pub const m_Vertices: usize = 0x30; // 
                 pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
                 pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
                 pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
@@ -952,7 +952,7 @@ pub mod cs2_dumper {
                 pub const m_flSurfaceArea: usize = 0x68; // float32
                 pub const m_Vertices: usize = 0x70; // CUtlVector<RnVertex_t>
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
-                pub const m_Edges: usize = 0xA0; // 
+                pub const m_Edges: usize = 0xA0; // CUtlVector<RnHalfEdge_t>
                 pub const m_Faces: usize = 0xB8; // 
                 pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
                 pub const m_nFlags: usize = 0xE8; // uint32
