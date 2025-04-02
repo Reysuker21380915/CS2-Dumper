@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 00:51:53.149375300 UTC
+// 2025-04-02 01:24:00.220889100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleModelType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -4183,7 +4183,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleTransformInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleTransformType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_bFollowNamedValue: usize = 0x58; // bool
                 pub const m_bSupportsDisabled: usize = 0x59; // bool

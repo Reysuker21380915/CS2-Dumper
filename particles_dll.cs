@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 00:51:53.149375300 UTC
+// 2025-04-02 01:24:00.220889100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -787,7 +787,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleModelType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -4104,7 +4104,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleTransformInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleTransformType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_bFollowNamedValue = 0x58; // bool
             public const nint m_bSupportsDisabled = 0x59; // bool

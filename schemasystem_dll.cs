@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 00:51:53.149375300 UTC
+// 2025-04-02 01:24:00.220889100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: schemasystem.dll
@@ -128,7 +128,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_CUtlSymbol = 0x148; // CUtlSymbol
             public const nint m_stringToken = 0x14C; // CUtlStringToken
             public const nint m_stringTokenWithStorage = 0x150; // CUtlStringTokenWithStorage
-            public const nint m_ResourceTypes = 0x168; // CResourceArray<CResourcePointer<CResourceString>>
+            public const nint m_ResourceTypes = 0x168; // 
             public const nint m_KV3 = 0x170; // KeyValues3
         }
         // Parent: CExampleSchemaVData_PolymorphicBase

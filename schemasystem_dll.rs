@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 00:51:53.149375300 UTC
+// 2025-04-02 01:24:00.220889100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -133,7 +133,7 @@ pub mod cs2_dumper {
                 pub const m_CUtlSymbol: usize = 0x148; // CUtlSymbol
                 pub const m_stringToken: usize = 0x14C; // CUtlStringToken
                 pub const m_stringTokenWithStorage: usize = 0x150; // CUtlStringTokenWithStorage
-                pub const m_ResourceTypes: usize = 0x168; // CResourceArray<CResourcePointer<CResourceString>>
+                pub const m_ResourceTypes: usize = 0x168; // 
                 pub const m_KV3: usize = 0x170; // KeyValues3
             }
             // Parent: CExampleSchemaVData_PolymorphicBase

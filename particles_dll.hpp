@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 00:51:53.149375300 UTC
+// 2025-04-02 01:24:00.220889100 UTC
 
 #pragma once
 
@@ -792,7 +792,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
@@ -2320,7 +2320,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             namespace CParticleVecInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
                 constexpr std::ptrdiff_t m_LiteralColor = 0x20; // Color
                 constexpr std::ptrdiff_t m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -4109,7 +4109,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleTransformInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleTransformType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_bFollowNamedValue = 0x58; // bool
                 constexpr std::ptrdiff_t m_bSupportsDisabled = 0x59; // bool
