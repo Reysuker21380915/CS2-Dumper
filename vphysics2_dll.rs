@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 01:24:00.220889100 UTC
+// 2025-05-23 01:21:40.511080600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -57,7 +57,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnSoftbodyCapsule_t {
-                pub const m_vCenter: usize = 0x0; // 
+                pub const m_vCenter: usize = 0x0; // Vector[2]
                 pub const m_flRadius: usize = 0x18; // float32
                 pub const m_nParticle: usize = 0x1C; // uint16[2]
             }
@@ -337,7 +337,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnCapsule_t {
-                pub const m_vCenter: usize = 0x0; // 
+                pub const m_vCenter: usize = 0x0; // Vector[2]
                 pub const m_flRadius: usize = 0x18; // float32
             }
             // Parent: None
@@ -445,9 +445,9 @@ pub mod cs2_dumper {
                 pub const m_vMin: usize = 0x0; // Vector
                 pub const m_vMax: usize = 0xC; // Vector
                 pub const m_Nodes: usize = 0x18; // CUtlVector<RnNode_t>
-                pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
-                pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
-                pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
+                pub const m_Vertices: usize = 0x30; // 
+                pub const m_Triangles: usize = 0x48; // 
+                pub const m_Wings: usize = 0x60; // 
                 pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
                 pub const m_vOrthographicAreas: usize = 0x90; // Vector
                 pub const m_nFlags: usize = 0x9C; // uint32

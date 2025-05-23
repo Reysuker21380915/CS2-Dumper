@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 01:24:00.220889100 UTC
+// 2025-05-23 01:21:40.511080600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // ParticleVecType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2335,7 +2335,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInterpInput1 = 0x62C; // float32
             public const nint m_vInterpOutput0 = 0x630; // Vector
             public const nint m_vInterpOutput1 = 0x63C; // Vector
-            public const nint m_Gradient = 0x648; // 
+            public const nint m_Gradient = 0x648; // CColorGradient
             public const nint m_vRandomMin = 0x660; // Vector
             public const nint m_vRandomMax = 0x66C; // Vector
         }
@@ -5492,7 +5492,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bEnabled = 0x0; // bool
             public const nint m_bReplaceTextureWithGradient = 0x1; // bool
             public const nint m_hTexture = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Gradient = 0x10; // 
+            public const nint m_Gradient = 0x10; // CColorGradient
             public const nint m_nTextureType = 0x28; // SpriteCardTextureType_t
             public const nint m_nTextureChannels = 0x2C; // SpriteCardTextureChannel_t
             public const nint m_nTextureBlendMode = 0x30; // ParticleTextureLayerBlendType_t

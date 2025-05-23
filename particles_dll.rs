@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 01:24:00.220889100 UTC
+// 2025-05-23 01:21:40.511080600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // ParticleVecType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -2414,7 +2414,7 @@ pub mod cs2_dumper {
                 pub const m_flInterpInput1: usize = 0x62C; // float32
                 pub const m_vInterpOutput0: usize = 0x630; // Vector
                 pub const m_vInterpOutput1: usize = 0x63C; // Vector
-                pub const m_Gradient: usize = 0x648; // 
+                pub const m_Gradient: usize = 0x648; // CColorGradient
                 pub const m_vRandomMin: usize = 0x660; // Vector
                 pub const m_vRandomMax: usize = 0x66C; // Vector
             }
@@ -5571,7 +5571,7 @@ pub mod cs2_dumper {
                 pub const m_bEnabled: usize = 0x0; // bool
                 pub const m_bReplaceTextureWithGradient: usize = 0x1; // bool
                 pub const m_hTexture: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                pub const m_Gradient: usize = 0x10; // 
+                pub const m_Gradient: usize = 0x10; // CColorGradient
                 pub const m_nTextureType: usize = 0x28; // SpriteCardTextureType_t
                 pub const m_nTextureChannels: usize = 0x2C; // SpriteCardTextureChannel_t
                 pub const m_nTextureBlendMode: usize = 0x30; // ParticleTextureLayerBlendType_t

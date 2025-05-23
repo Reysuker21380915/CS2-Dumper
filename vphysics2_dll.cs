@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 01:24:00.220889100 UTC
+// 2025-05-23 01:21:40.511080600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -52,7 +52,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class RnSoftbodyCapsule_t {
-            public const nint m_vCenter = 0x0; // 
+            public const nint m_vCenter = 0x0; // Vector[2]
             public const nint m_flRadius = 0x18; // float32
             public const nint m_nParticle = 0x1C; // uint16[2]
         }
@@ -332,7 +332,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class RnCapsule_t {
-            public const nint m_vCenter = 0x0; // 
+            public const nint m_vCenter = 0x0; // Vector[2]
             public const nint m_flRadius = 0x18; // float32
         }
         // Parent: None
@@ -440,9 +440,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_vMin = 0x0; // Vector
             public const nint m_vMax = 0xC; // Vector
             public const nint m_Nodes = 0x18; // CUtlVector<RnNode_t>
-            public const nint m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
-            public const nint m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
-            public const nint m_Wings = 0x60; // CUtlVector<RnWing_t>
+            public const nint m_Vertices = 0x30; // 
+            public const nint m_Triangles = 0x48; // 
+            public const nint m_Wings = 0x60; // 
             public const nint m_Materials = 0x78; // CUtlVector<uint8>
             public const nint m_vOrthographicAreas = 0x90; // Vector
             public const nint m_nFlags = 0x9C; // uint32
