@@ -13,9 +13,17 @@
           "m_hTest": 16
         },
         "metadata": [],
-        "parent": "CAnimScriptBase"
+        "parent": null
       }
     },
-    "enums": {}
+    "enums": {
+      "C_RagdollProp": {
+        "alignment": 17,
+        "members": {
+          "": 0
+        },
+        "type": "unknown"
+      }
+    }
   }
 }
