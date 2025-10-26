@@ -1,0 +1,30 @@
+# 🕹️ DSPGames - Versión 2.2
+
+**Fecha de lanzamiento:** 26 de octubre de 2025  
+**Autor:** DSP Games / Reysuker  
+**Proyecto:** Deadlocked / Aimbot / Colorbot / DSP Platform
+
+---
+
+## 🚀 Novedades en la versión 2.2
+
+- Migración completa a soporte para **Windows 10/11**.  
+- Eliminadas dependencias exclusivas de Linux (`/dev/input`, `read_at`, etc.).  
+- Nueva compatibilidad con **WinAPI** para control de mouse en tiempo real.  
+- Integración limpia con `winit 0.29+` (sin `with_override_redirect`).  
+- Correcciones de compilación (`E0599`, `E0596`, `unused_mut`) y eliminación de warnings.  
+- Mejoras en el rendimiento del movimiento del cursor (suavidad y precisión).  
+- Sistema de logs más detallado para debugging.
+
+---
+
+## ⚙️ Requisitos recomendados
+
+- **Sistema Operativo:** Windows 10 o 11 (x64)  
+- **Rust Toolchain:** 1.81 o superior  
+- **Dependencias:**  
+  ```toml
+  [dependencies]
+  winapi = { version = "0.3", features = ["winuser", "um"] }
+  glam = "0.27"
+  log = "0.4"
